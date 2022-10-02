@@ -23,7 +23,7 @@
 
 var generalSettings = {
   // The feed is the collection of videos, shown on the home page
-  "hideFeed"        : false,
+  "hideFeed"        : true,
 
   // The guide drawer is the drawer (sidebar) to the left
   // which is used for navigating Playlists, Subscriptions, ...
@@ -48,13 +48,13 @@ var generalSettings = {
     "hideGuideFooter"          : false,
 
   // Related videos are the recommendations at the end of a video
-  "hideRelated"  : false,
+  "hideRelated"  : true,
 
   "hideChat"     : false,
 
   // The sidebar is the section to the right of a video
   // where you can find video and playlist suggestions
-  "hideSidebar"  : false,
+  "hideSidebar"  : true,
 
   "hideMerch"    : false,
 
@@ -72,14 +72,14 @@ var generalSettings = {
  */
 
 var timeout = {
-  "enabled"    : false,
+  "enabled"    : true,
   // Determines days, in which the timeout will be active. Each day is separated
   // by a comma. Can be 0 to 6, where 0 is Sunday, 1 is Monday and 6 is Saturday.
-  "activeDays" : [0, 1, 2, 3, 4, 5, 6],
+  "activeDays" : [1, 2, 3, 4, 5],
 
   // Determines time from which the timeout will block YouTube.
   // Must be numbers, from 0 to 24 for hour and from 0 to 59 for minutes.
-  "startHour"    : 9,
+  "startHour"    : 8,
   "startMinutes" : 0,
 
   // Determines end of time from which the timeout will block YouTube.
