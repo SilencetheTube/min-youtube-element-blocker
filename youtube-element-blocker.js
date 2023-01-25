@@ -72,7 +72,7 @@ var generalSettings = {
  */
 
 var timeout = {
-  "enabled"    : true,
+  "enabled"    : false,
   // Determines days, in which the timeout will be active. Each day is separated
   // by a comma. Can be 0 to 6, where 0 is Sunday, 1 is Monday and 6 is Saturday.
   "activeDays" : [1, 2, 3, 4, 5],
@@ -84,7 +84,7 @@ var timeout = {
 
   // Determines end of time from which the timeout will block YouTube.
   // Must be numbers, from 0 to 24 for hour and from 0 to 59 for minutes.
-  "endHour"    : 17,
+  "endHour"    : 16,
   "endMinutes" : 0,
 };
 
