@@ -84,7 +84,7 @@ var timeout = {
 
   // Determines end of time from which the timeout will block YouTube.
   // Must be numbers, from 0 to 24 for hour and from 0 to 59 for minutes.
-  "endHour"    : 16,
+  "endHour"    : 14,
   "endMinutes" : 0,
 };
 
